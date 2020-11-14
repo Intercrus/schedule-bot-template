@@ -26,6 +26,7 @@ async def search_groups(message: Message, state: FSMContext):
     await message.answer(f"Group {message.text} found successfully.\n"
                          f"Select the button you are interested in",
                          reply_markup=main_menu_default_keyboard)
+    await state.finish()
 
 
 @dp.message_handler(state=StatesOfBot.enter_teacher)
@@ -33,3 +34,4 @@ async def search_groups(message: Message, state: FSMContext):
     await message.answer(f"Teacher {message.text} found successfully.\n"
                          f"Select the button you are interested in",
                          reply_markup=main_menu_default_keyboard)
+    await state.finish()

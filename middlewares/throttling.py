@@ -36,9 +36,8 @@ class ThrottlingMiddleware(BaseMiddleware):
     async def message_throttled(self, message: types.Message, throttled: Throttled):
         delta = throttled.rate - throttled.delta
         if throttled.exceeded_count == 2:
-            await message.reply('Слишком много запросов. \n'
-                                'Попробуйте нажать снова через 10 секунд')
+            await message.reply('Too many requests!')
+
         elif throttled.exceeded_count == 3:
-            await message.reply("Превышено количество запросов. \n"
-                                "Кнопка станет доступной для нажатия через минуту")
+            await message.reply("Unlocked")
         await asyncio.sleep(delta)
