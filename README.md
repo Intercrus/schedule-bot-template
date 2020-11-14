@@ -3,3 +3,11 @@
 
 # demo 
 ![demo](https://github.com/Intercrus/schedule-bot-template/blob/master/demo-template.gif)
+
+# Features
+
+• aiogram as a framework
+• db gino as a ORM
+• PostgreSQL as a database
+
+
