@@ -6,9 +6,9 @@
 
 # Features
 
-• aiogram as a framework
-• db gino as a ORM
-• PostgreSQL as a database
+* aiogram as a framework
+* db gino as a ORM
+* PostgreSQL as a database
 
 
 
