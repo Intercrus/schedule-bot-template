@@ -12,7 +12,7 @@
 
 ## Getting Started
 1. Clone the repository
->> If you have ubuntu - leave the ip the same (localhost)
+> If you have ubuntu - leave the ip the same (localhost)
 2. Download PostgreSQL and pgAdmin4
 3. In pgAdmin4 create a server with the following settings:
 ![](https://github.com/Intercrus/ScheduleBotTelegram/blob/master/Screenshot%20from%202020-11-12%2000-50-39.png)
