@@ -17,9 +17,10 @@
 3. In pgAdmin4 create a server with the following settings:
 ![](https://github.com/Intercrus/ScheduleBotTelegram/blob/master/Screenshot%20from%202020-11-12%2000-50-39.png)
 4. Create a database on the server in PostgreSQL
-5. Change the file .env
+5. Change the file .env (```/schedule-bot-template/.env```)
 > The file has hints on what to change (this is your bot token, your id, etc.)
-6. Run the file app.py 
+6. Установить модули, которые использует бот. Они находятся в ```/schedule-bot-template/requirements.txt```
+7. Run the file app.py 
 > After that the bot should work
 
 
