@@ -19,7 +19,7 @@
 4. Create a database on the server in PostgreSQL
 5. Change the file .env (```/schedule-bot-template/.env```)
 > The file has hints on what to change (this is your bot token, your id, etc.)
-6. Установить модули, которые использует бот. Они находятся в файле requirements.txt ```/schedule-bot-template/requirements.txt```
+6. Install the modules that the bot uses. They are in the file requirements.txt ```/schedule-bot-template/requirements.txt```
 7. Run the file app.py 
 > After that the bot should work
 
